@@ -2,7 +2,7 @@ from threading import Thread
 import socket
 
 
-target = ' '
+target = '127.0.0.1'
 
 def scan(port_list):
     for port in port_list:
